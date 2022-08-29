@@ -13,6 +13,7 @@ body{
     font-size: 18px;
     font-family: 'Bai Jamjuree', sans-serif;
 }
+/* this is styling is for mobile view */
 main{
     width: 90%;
     margin: auto;
@@ -127,6 +128,7 @@ li:hover{
     background-color: hsl(171, 66%, 44%);
     cursor: pointer;
 }
+/* this styling is for desktop view */
 @media screen and (min-width: 992px) {
     body{
         background-image: url(./Images/bg-header-desktop.png);
